@@ -47,7 +47,7 @@ function Weather() {
         }
 
         try {
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=62af0dc50c1ea3316cf96f185a523098`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=''`;
             console.log(url);
             const response = await fetch(url);
             const data = await response.json();
